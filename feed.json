@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Hexo",
-    "subtitle": "",
+    "title": "三十六画生の博客",
+    "subtitle": "与天对弈，初心不改",
     "icon": "https://ruler64.github.io/hexo/images/favicon.ico",
-    "description": "",
+    "description": "路漫漫其修远兮，吾将上下而求索",
     "home_page_url": "https://ruler64.github.io/hexo",
     "items": [
         {

@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo</title>
-        <subtitle></subtitle>
+        <title>三十六画生の博客</title>
+        <subtitle>与天对弈，初心不改</subtitle>
         <icon>https://ruler64.github.io/hexo/images/favicon.ico</icon>
         <link>https://ruler64.github.io/hexo</link>
         <author>
-          <name>John Doe</name>
+          <name>三十六画生</name>
         </author>
-        <description></description>
-        <language>en</language>
+        <description>路漫漫其修远兮，吾将上下而求索</description>
+        <language>zh-CN</language>
         <pubDate>Sat, 01 Oct 2022 10:10:00 +0800</pubDate>
         <lastBuildDate>Sat, 01 Oct 2022 10:10:00 +0800</lastBuildDate>
-        <category term="，" />
+        <category term="后端，SpringBoot" />
         <item>
             <guid isPermalink="true">https://ruler64.github.io/hexo/2022/10/01/hello-world/</guid>
             <title>Hello World</title>

@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ruler64.github.io/hexo</id>
-    <title>Hexo</title>
-    <subtitle></subtitle>
+    <title>三十六画生の博客</title>
+    <subtitle>与天对弈，初心不改</subtitle>
     <icon>https://ruler64.github.io/hexo/images/favicon.ico</icon>
     <link href="https://ruler64.github.io/hexo" />
     <author>
-      <name>John Doe</name>
+      <name>三十六画生</name>
     </author>
     <updated>2022-10-01T02:10:00.946Z</updated>
-    <category term="，" />
+    <category term="后端，SpringBoot" />
     <entry>
         <id>https://ruler64.github.io/hexo/2022/10/01/hello-world/</id>
         <title>Hello World</title>
