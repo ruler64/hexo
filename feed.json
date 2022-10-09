@@ -7,6 +7,17 @@
     "home_page_url": "https://ruler64.github.io/hexo",
     "items": [
         {
+            "id": "https://ruler64.github.io/hexo/thread-lock/",
+            "url": "https://ruler64.github.io/hexo/thread-lock/",
+            "title": "线程安全问题",
+            "date_published": "2022-10-09T03:36:44.000Z",
+            "content_html": "<h1 id=\"关于线程安全问题\"><a class=\"anchor\" href=\"#关于线程安全问题\">#</a> 关于线程安全问题</h1>\n<p>ctrl+alt+t 第九个 synchronized (this): 给核心操作 (判断银行钱够不够) 上锁。同时也可以用 Lock 类来创建一个自己的锁但是因为 Lock 为接口，不能有实体类所以用 private final Lock lock = new ReentrantLock (); 然后在需要上锁的地方前加入 lock.lock (); 但是在此方法结束时要加入 try 来抛出方法可能会出现的异常最后加入 finally 然后在 finally {lock.unlock ();}// 解锁</p>\n",
+            "tags": [
+                "笔记",
+                "后端,thread"
+            ]
+        },
+        {
             "id": "https://ruler64.github.io/hexo/hexo-url-optimization/",
             "url": "https://ruler64.github.io/hexo/hexo-url-optimization/",
             "title": "Hexo博客url优化",

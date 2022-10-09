@@ -10,9 +10,20 @@
         </author>
         <description>路漫漫其修远兮，吾将上下而求索</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 02 Oct 2022 21:35:48 +0800</pubDate>
-        <lastBuildDate>Sun, 02 Oct 2022 21:35:48 +0800</lastBuildDate>
+        <pubDate>Sun, 09 Oct 2022 11:36:44 +0800</pubDate>
+        <lastBuildDate>Sun, 09 Oct 2022 11:36:44 +0800</lastBuildDate>
         <category term="后端，SpringBoot" />
+        <item>
+            <guid isPermalink="true">https://ruler64.github.io/hexo/thread-lock/</guid>
+            <title>线程安全问题</title>
+            <link>https://ruler64.github.io/hexo/thread-lock/</link>
+            <category term="笔记" scheme="https://ruler64.github.io/hexo/categories/note/" />
+            <category term="后端,thread" scheme="https://ruler64.github.io/hexo/tags/%E5%90%8E%E7%AB%AF-thread/" />
+            <pubDate>Sun, 09 Oct 2022 11:36:44 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;关于线程安全问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于线程安全问题&#34;&gt;#&lt;/a&gt; 关于线程安全问题&lt;/h1&gt;
+&lt;p&gt;ctrl+alt+t 第九个 synchronized (this): 给核心操作 (判断银行钱够不够) 上锁。同时也可以用 Lock 类来创建一个自己的锁但是因为 Lock 为接口，不能有实体类所以用 private final Lock lock = new ReentrantLock (); 然后在需要上锁的地方前加入 lock.lock (); 但是在此方法结束时要加入 try 来抛出方法可能会出现的异常最后加入 finally 然后在 finally {lock.unlock ();}// 解锁&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://ruler64.github.io/hexo/hexo-url-optimization/</guid>
             <title>Hexo博客url优化</title>
